@@ -1,0 +1,44 @@
+:root {
+  --slate-900: #1f314f;
+  --slate-500: #68778d;
+  --slate-300: #d5e1ef;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--slate-300);
+  font-family: "Outfit", sans-serif;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  font-weight: bold;
+  color: var(--slate-900);
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  color: var(--slate-500);
+}
+
+.card {
+  background-color: white;
+}
+
+/* FEM atribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
