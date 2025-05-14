@@ -48,7 +48,7 @@ p {
   text-align: center;
   border-radius: 20px;
   padding: 1rem;
-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 .qr-code {
   width: 288px;
@@ -59,7 +59,6 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 2rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
